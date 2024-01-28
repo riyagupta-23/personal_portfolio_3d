@@ -122,7 +122,7 @@ const Contact = () => {
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary 
           rounded-xl"
           >
-            {loading ? 'Seding...' : 'Sent'}
+            {loading ? 'Seding...' : 'Send'}
 
           </button>
         </form>
