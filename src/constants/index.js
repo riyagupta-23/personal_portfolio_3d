@@ -143,10 +143,10 @@ import {
       date: "Sept 2022 - Present",
       points: [
         "Dean's List (2023-2024)",
-        "Coursework: NLP, Theory of Computation, Algorithms & Data, Object-Oriented Programming," + 
+        "Coursework: NLP, Theory of Computation, Algorithms & Data, Object-Oriented Programming, " + 
         "Group Theory, Probability & Statistics, Number Theory, Intro to Cryptography",
         "Mathematics Peer Tutor at Northeastern College of Engineering since September 2023" +
-        "providing personalized tutoring in Calculus, Differential Equations, and Linear Algebra, and creating custom learning materials.",
+        " providing personalized tutoring in Calculus, Differential Equations, and Linear Algebra, and creating custom learning materials.",
       ],
     },
     {
@@ -156,9 +156,9 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2023 - Aug 2023",
       points: [
-        "Studied Real Analysis and Marketing Strategies at the London School of Economics" +
+        "Studied Real Analysis and Marketing Strategies at the London School of Economics " +
        "enhancing analytical skills and understanding of market dynamics.",
-        "Gained a solid foundation in complex mathematical concepts and practical marketing" +
+        "Gained a solid foundation in complex mathematical concepts and practical marketing " +
         "approaches, contributing to a well-rounded academic profile."
       ],
     },
@@ -169,9 +169,9 @@ import {
       iconBg: "#383E56",
       date: "June 2022 - Aug 2022",
       points: [
-        "Completed courses in Econometrics and Quantitative Economics at Harvard University,"+
+        "Completed courses in Econometrics and Quantitative Economics at Harvard University, "+
         "acquiring advanced skills in data analysis and economic modeling during the COVID-19 period.",
-        "Developed proficiency in statistical methods and economic theory applicable to" + 
+        "Developed proficiency in statistical methods and economic theory applicable to " + 
         "real-world issues, heightened by the pandemic's global impact."
       ],
     },
@@ -182,9 +182,9 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2020 - May 2022",
       points: [
-        "The demanding coursework of the IB Diploma fostered a strong work ethic and dedication," +
+        "The demanding coursework of the IB Diploma fostered a strong work ethic and dedication, " +
         "particularly in challenging subjects like math and computer science, guiding my career choice in these fields",
-        "Through volunteer work, I gained valuable insights into community needs," + 
+        "Through volunteer work, I gained valuable insights into community needs, " + 
         "fostering a strong commitment to social wellness and the betterment of society."
       ],
     },
@@ -194,8 +194,8 @@ import {
     {
       name: "3D Sudoku",
       description:
-        "Each side of the cube acts as an individual Sudoku grid, offering a multi-dimensional puzzle-solving experience." +
-        " Features dynamic grid reloading with each website refresh, ensuring a new challenge for the player every time." +
+        "Each side of the cube acts as an individual Sudoku grid, offering a multi-dimensional puzzle-solving experience. " +
+        " Features dynamic grid reloading with each website refresh, ensuring a new challenge for the player every time. " +
         " Integrated Three.js to render 3D graphics in the web browser and implemented a backtracking algorithm in Python to generate valid Sudoku puzzles efficiently.",
       tags: [
         {
@@ -217,9 +217,9 @@ import {
     {
       name: "Study Link",
       description:
-       "Launched a web app for students to effortlessly form and find study groups," +
-       "mapped across the university for quick identification." +
-       "Simplified study group creation and joining processes, aligning students with shared academic goals and compatible timetables.",
+       "Launched a web app for students to effortlessly form and find study groups, " +
+       "mapped across the university for quick identification. " +
+       "Simplified study group creation and joining processes, aligning students with shared academic goals and compatible timetables. ",
       tags: [
         {
           name: "javaScript",
@@ -240,10 +240,10 @@ import {
     {
       name: "Reversi Game",
       description:
-       "Developed an advanced Java-based Reversi (Othello) game with a skilled AI opponent," +
-        "presenting scalable challenges for players across different proficiency levels." +
-       "Innovatively expanded gameplay options by incorporating both traditional square and a" +
-       "novel hexagonal board, devised through mathematical algorithms for a fresh take on the classic.",
+       "Developed an advanced Java-based Reversi (Othello) game with a skilled AI opponent, " +
+        "presenting scalable challenges for players across different proficiency levels. " +
+       "Innovatively expanded gameplay options by incorporating both traditional square and a " +
+       "novel hexagonal board, devised through mathematical algorithms for a fresh take on the classic. ",
       tags: [
         {
           name: "java",
