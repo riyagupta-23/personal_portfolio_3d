@@ -41,7 +41,7 @@ const About = () => {
     <motion.p variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl
     leading-[30px]">
-     As a dedicated Computer Science and Mathematics student at Northeastern University, 
+     As a determined student at Northeastern University, 
       I pride myself on being a fast learner and an effective team player. My academic
       journey has equipped me with a robust skill set in various programming languages,
       including Java, Python, and JavaScript. Additionally, I have spent time learning
