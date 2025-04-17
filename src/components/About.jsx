@@ -41,14 +41,14 @@ const About = () => {
     <motion.p variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl
     leading-[30px]">
-     As a determined student at Northeastern University, 
-      I pride myself on being a fast learner and an effective team player. My academic
-      journey has equipped me with a robust skill set in various programming languages,
-      including Java, Python, and JavaScript. Additionally, I have spent time learning
-      and utilizing frameworks such as React, Node.js, and Three.js. 
-      I am enthusiastic about leveraging my skills in collaborative environments
-      and am always open to connecting with like-minded individuals. 
-       Let's connect!
+     As a dedicated and driven student at Northeastern University, I have 
+     cultivated a strong foundation in computer science through both academic 
+     coursework and hands-on experience. I take pride in being a fast learner who 
+     thrives in dynamic, team-oriented environments. My technical expertise spans a wide range of programming languages, including Java, Python, and JavaScript, and I have practical experience working with modern frameworks such as React, Node.js, and Three.js.
+
+    Throughout my academic journey, I have consistently sought opportunities to apply my skills in real-world scenarios, contributing to collaborative projects that require creative problem-solving and effective communication. Whether it’s building interactive web applications or working on backend systems, I approach each challenge with curiosity and a commitment to excellence.
+
+    I am enthusiastic about connecting with individuals who share a passion for technology and innovation, and I am always open to engaging in meaningful conversations or potential collaborations. If you’re interested in discussing ideas, projects, or opportunities, I’d love to connect.
 
     </motion.p>
 
