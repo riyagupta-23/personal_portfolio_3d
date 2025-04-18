@@ -12,24 +12,16 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 100);
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -43,13 +35,14 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Riya &nbsp;
-            <span className='sm:block hidden'> | Programmer</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            Riya&nbsp;
+            <span className='sm:block hidden'>| Programmer</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        {/* Desktop Navigation */}
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,13 +54,26 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          {/* Resume Button */}
+          <li>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white border border-white px-4 py-1 rounded hover:bg-white hover:text-black transition-all text-[16px] font-medium"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
+        {/* Mobile Navigation */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
           />
 
@@ -84,13 +90,26 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
+                    setToggle(false);
                     setActive(nav.title);
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              {/* Resume Button in Mobile Menu */}
+              <li>
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white font-medium text-[16px]"
+                  onClick={() => setToggle(false)}
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
